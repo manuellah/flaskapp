@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Flask App</title>    
+    <title>Flask App</title> 
+    <!--uses url_for to generate a url path for main.css-->  
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">;
   </head>
   <body>
    
